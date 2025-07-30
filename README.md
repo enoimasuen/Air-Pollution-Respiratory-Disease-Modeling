@@ -1,4 +1,4 @@
-[data_202610.csv](https://github.com/user-attachments/files/21512657/data_202610.csv)# Air-Pollution-Respiratory-Disease-Modeling
+# Air-Pollution-Respiratory-Disease-Modeling
 
 This project investigates whether common air pollutants — including PM2.5, ozone, and volatile organic compounds — are predictive of chronic respiratory conditions (asthma and COPD) in the United States. By combining machine learning models with real-world data, we evaluate which environmental factors contribute most to elevated disease rates.
 
