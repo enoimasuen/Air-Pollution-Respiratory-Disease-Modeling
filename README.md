@@ -1,4 +1,4 @@
-# Air-Pollution-Respiratory-Disease-Modeling
+[data_202610.csv](https://github.com/user-attachments/files/21512657/data_202610.csv)# Air-Pollution-Respiratory-Disease-Modeling
 
 This project investigates whether common air pollutants — including PM2.5, ozone, and volatile organic compounds — are predictive of chronic respiratory conditions (asthma and COPD) in the United States. By combining machine learning models with real-world data, we evaluate which environmental factors contribute most to elevated disease rates.
 
@@ -35,3 +35,22 @@ Can county-level pollutant concentrations accurately predict areas with high pre
 - Random Forest models outperformed linear models and offered better generalization across diverse U.S. counties.
 
 ##  Repository Structure
+/data/
+├── asthma.csv # County-level asthma prevalence (CDC)
+├── copd.csv # County-level COPD prevalence (CDC)
+├── pollutant_data.csv # (from data_121847.csv) Air pollutant concentrations (e.g., VOCs, PM2.5)
+├── aqi_by_cbsa.csv # (from daily_aqi_by_cbsa_2024.csv) Daily AQI readings by CBSA
+└── cbsa_to_fips_mapping.csv # (from cbsa2fipsxw.csv) Geographic crosswalk for merging datasets
+
+
+## Future Work
+- Incorporate temporal pollution patterns (e.g., wildfire seasons, daily spikes)
+- Add demographic covariates (income, race, smoking rates)
+- Explore interpretable ML (e.g., SHAP values, L1-regularization)
+- Test deep learning models for complex pollutant-disease interactions
+
+## Authors
+**Enoghayin Imasuen, Jan Tobias Boehnke, Megha Sharma**  
+Harvard Extension School — Psychology & Data Science  
+
+
