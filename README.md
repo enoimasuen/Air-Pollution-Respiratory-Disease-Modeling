@@ -37,9 +37,13 @@ Can county-level pollutant concentrations accurately predict areas with high pre
 ##  Repository Structure
 /data/
 ├── asthma.csv # County-level asthma prevalence (CDC)
+
 ├── copd.csv # County-level COPD prevalence (CDC)
+
 ├── pollutant_data.csv # (from data_121847.csv) Air pollutant concentrations (e.g., VOCs, PM2.5)
+
 ├── aqi_by_cbsa.csv # (from daily_aqi_by_cbsa_2024.csv) Daily AQI readings by CBSA
+
 └── cbsa_to_fips_mapping.csv # (from cbsa2fipsxw.csv) Geographic crosswalk for merging datasets
 
 
