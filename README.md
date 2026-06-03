@@ -34,8 +34,9 @@ Can county-level pollutant concentrations accurately predict areas with high pre
 - Diesel particulate matter and carbon tetrachloride showed complex associations, potentially influenced by regional or demographic factors.
 - Random Forest models outperformed linear models and offered better generalization across diverse U.S. counties.
 
+
+##  Repository 
 ```
-##  Repository Structure
 /data/
 
 ├── asthma.csv # County-level asthma prevalence (CDC)
